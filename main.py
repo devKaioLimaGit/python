@@ -5,7 +5,7 @@ import plotly.express as px
 import pandas as pd
 
 # Carregar os dados
-df = pd.read_csv('../data/raw/dados_imobiliarios.csv')
+df = pd.read_csv('data/raw/dados_imobiliarios.csv')
 
 # Inicializar o app
 app = dash.Dash(__name__)
